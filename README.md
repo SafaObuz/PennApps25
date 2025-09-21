@@ -18,7 +18,7 @@ Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 
 
 
-This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
+This is a simplified version of EgoLifter focused on stable Gaussian editing (deletion, movement) functionality.
 
 https://github.com/facebookresearch/egolifter
 
