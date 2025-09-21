@@ -2,12 +2,6 @@
 
 ## **Create an editable 3D world just from a video**
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 :-------------:|:--------------------------------:|:----------------------:
 ![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/sam.gif)
