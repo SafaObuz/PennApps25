@@ -1,4 +1,9 @@
 # 4D2^3
+
+** Create an editable 3D world just from a video **
+
+![test](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif)
+
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
 
 https://github.com/facebookresearch/egolifter
@@ -19,6 +24,12 @@ https://github.com/facebookresearch/egolifter
 - `setup_env.bash` - Environment configuration for lightweight SAM model
 - `landing_page.html` - Web interface
 
+As well as a handful of patches to the original EgoLifter codebase to enable training on a laptop w/ 4070
+
+- Fixed import errors (relative → absolute imports)
+- Fixed CUDA/CPU device handling
+- Simplified GUI for better reliability
+
 ## Setup
 
 1. Run `source setup_env.bash` to set up environment variables
@@ -31,13 +42,3 @@ https://github.com/facebookresearch/egolifter
 2. Position grids to select unwanted Gaussians
 3. Use "Delete Selected Objects" to remove them
 4. Use movement controls to reposition objects if needed
-
-## Changes Made
-
-- Removed complex uncertainty-based selection (was causing stability issues)
-- Fixed import errors (relative → absolute imports)
-- Fixed CUDA/CPU device handling
-- Simplified GUI for better reliability
-- Removed emojis for professional appearance
-
-This version prioritizes stability and core functionality over advanced features.
