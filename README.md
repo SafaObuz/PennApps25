@@ -4,8 +4,7 @@
 
 Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 :-------------:|:--------------------------------:|:----------------------:
-
-![](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif) | ![](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/sam.gif) | ![](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/colmap.gif)
+![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/sam.gif)
 
 
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
