@@ -8,6 +8,9 @@ Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 ![drexel-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/video.gif) | ![drexel-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/colmap.gif) | ![drexel-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/sam.gif)
 ![penn-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/video.gif) | ![penn-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/colmap.gif) | ![penn-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/sam.gif)
 
+![training-outdoor](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/media_images_valid_view_frame_00736_1329_5aa010e87e8852a06a57.png)
+![training-indoor](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/media_images_valid_view_frame_00281_1063_014a6567d342deecc3e1.png)
+
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
 
 https://github.com/facebookresearch/egolifter
