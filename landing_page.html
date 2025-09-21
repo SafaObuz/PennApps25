@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EgoLifter Scene Editor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 800px;
+            width: 90%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        
+        .feature p {
+            margin: 0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .launch-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+        
+        .launch-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .viewer-container {
+            margin-top: 30px;
+            width: 100%;
+            height: 80vh;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .instructions {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            margin-top: 0;
+            color: #2c5aa0;
+        }
+        
+        .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>EgoLifter Scene Editor</h1>
+        <p class="subtitle">Interactive 3D Gaussian Scene Editing</p>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>Grid Selection</h3>
+                <p>Use 3D bounding boxes to select Gaussians for editing</p>
+            </div>
+            <div class="feature">
+                <h3>Object Deletion</h3>
+                <p>Remove unwanted objects from your 3D scenes</p>
+            </div>
+            <div class="feature">
+                <h3>Movement Controls</h3>
+                <p>Precisely position objects with intuitive controls</p>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Use:</h3>
+            <ol>
+                <li>Click "Add Selection Panel" to create a 3D selection grid</li>
+                <li>Position and resize the grid to select unwanted Gaussians</li>
+                <li>Use "Delete Selected Objects" to remove them</li>
+                <li>Use movement controls to reposition objects if needed</li>
+            </ol>
+        </div>
+        
+        <a href="http://localhost:8080" class="launch-btn" target="_blank">
+            Launch 3D Viewer
+        </a>
+        
+        <div class="viewer-container">
+            <iframe src="http://localhost:8080" title="EgoLifter 3D Viewer"></iframe>
+        </div>
+    </div>
+</body>
+</html>

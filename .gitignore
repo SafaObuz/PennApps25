@@ -1,0 +1,102 @@
+# Large model checkpoints and weights
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+
+# Model outputs and results
+output/
+outputs/
+logs/
+wandb/
+tensorboard_logs/
+
+# Data directories
+data/
+datasets/
+captures/
+camera_paths/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# CUDA/GPU specific
+*.cubin
+*.fatbin
+
+# Large video/image files (uncomment if needed)
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
+# *.jpg
+# *.jpeg
+# *.png
+# *.tiff
+# *.bmp
+
+# Specific to this project
+Grounded-Segment-Anything/sam_vit_b.pth
+Grounded-Segment-Anything/groundingdino_swint_ogc.pth
+Grounded-Segment-Anything/sam_vit_h_4b8939.pth
+Grounded-Segment-Anything/sam_vit_l_0b3195.pth

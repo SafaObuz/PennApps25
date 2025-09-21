@@ -1,0 +1,14 @@
+# Hard pins for this project
+numpy==1.26.4
+torch==2.1.2+cu121
+torchvision==0.16.2+cu121
+torchaudio==2.1.2+cu121
+
+# Keep lightning happy
+fsspec==2024.6.1
+
+# OpenCV that still works with NumPy 1.26
+opencv-python==4.9.0.80
+
+# Avoid newer build backends that cause churn
+setuptools<81
