@@ -1,6 +1,6 @@
-# EgoLifter Scene Editor - Simplified Version
-
+# 4D2^3
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
+https://github.com/facebookresearch/egolifter
 
 ## Key Features
 
