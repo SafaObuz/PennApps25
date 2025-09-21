@@ -5,7 +5,8 @@
 Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 :-------------:|:--------------------------------:|:----------------------:
 ![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/sam.gif)
-![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/sam.gif)
+![drexel-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/video.gif) | ![drexel-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/colmap.gif) | ![drexel-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_drexel/sam.gif)
+![penn-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/video.gif) | ![penn-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/colmap.gif) | ![penn-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor_penn/sam.gif)
 
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
 
