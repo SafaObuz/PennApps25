@@ -9,7 +9,7 @@ This is a simplified version of EgoLifter focused on stable Gaussian deletion fu
 - **Stable Rendering**: Fixed CUDA/CPU device handling issues
 - **Efficiency**: Modified original pipeline to run fully on a laptop
 
-## Modified Files (Our Contribu
+## Modified Files (Our Contributions)
 
 - `edit_panel.py` - Main GUI with simplified interface
 - `vanilla.py` - Fixed import and device handling for background tensor
