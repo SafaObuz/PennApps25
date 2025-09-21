@@ -1,11 +1,11 @@
-# 4D2^3
+# 4D2³
 
-** Create an editable 3D world just from a video **
+## **Create an editable 3D world just from a video**
 
 Original Video | COLMAP Camera Trajectory (Poses) | Segmentation Maps (SAM)
 :-------------:|:--------------------------------:|:----------------------:
 ![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/chair/sam.gif)
-
+![chair-video](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/video.gif) | ![chair-colmap](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/colmap.gif) | ![chair-sam](https://github.com/SafaObuz/PennApps25/blob/master/media/outdoor-drexel/sam.gif)
 
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
 
