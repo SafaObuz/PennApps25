@@ -1,22 +1,22 @@
-# EgoLifter Scene Editor - Simplified Version
-
+# 4D2^3
 This is a simplified version of EgoLifter focused on stable Gaussian deletion functionality.
+
+https://github.com/facebookresearch/egolifter
 
 ## Key Features
 
-- **Grid-based Gaussian Selection**: Manual selection using 3D bounding boxes
 - **Object Deletion**: Remove unwanted Gaussians from 3D scenes
 - **Movement Controls**: Move selected objects with precise controls
-- **Clean GUI**: Professional interface without emojis
 - **Stable Rendering**: Fixed CUDA/CPU device handling issues
+- **Efficiency**: Modified original pipeline to run fully on a laptop
 
-## Modified Files
+## Modified Files (Our Contributions)
 
 - `edit_panel.py` - Main GUI with simplified interface
 - `vanilla.py` - Fixed import and device handling for background tensor
 - `gsplat.py` - Fixed import and device handling for K tensor
 - `viewer_with_landing.py` - Landing page integration
-- `setup_env.bash` - Environment configuration
+- `setup_env.bash` - Environment configuration for lightweight SAM model
 - `landing_page.html` - Web interface
 
 ## Setup
@@ -27,7 +27,7 @@ This is a simplified version of EgoLifter focused on stable Gaussian deletion fu
 
 ## Usage
 
-1. Use "Add Selection Panel" to create 3D selection grids
+1. Use "Add Selection Panel" to create 3D selection grids and enable the pointcloud
 2. Position grids to select unwanted Gaussians
 3. Use "Delete Selected Objects" to remove them
 4. Use movement controls to reposition objects if needed
